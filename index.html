@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EYE EAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">     
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <main id="app">
+    <header>
+        <img class="logo" src="images/eyear.png" alt="logoimage">
+        <nav>
+            <ul class="links">
+                <li><a href="#">MUSIC</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV SHOWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1 id="headertwo">NO LIMITATIONS NO LIMITS</h1>
+
+
+    
+    <ul class="things things-bigger">
+
+        <div class="movie">
+            <div class="left-side-movie">
+                <h4 class="thetitle">Trolls</h4>
+                <h1 class="controlstitle">Video controls</h1>
+
+                <div class="actualcontrols">
+                <i class="fas fa-backward"></i>
+                    <i class="fas fa-play-circle"></i>
+                    <i class="fas fa-undo"></i>
+                    <i class="fas fa-forward"></i><br>
+                </div>
+
+                <h1 class="captionstitle">Captions <span>OFF</span></h1>
+            </div>
+            
+            <video class="videomovie" src="videos/Trolls.mp4" alt="video">
+                <track src="videos/Trolls.mp4.vtt" defaultkind="captions" srclang="en" label="English"/>
+            </video>
+        </div>
+
+
+        <div class="audiomusic audiomusic-bigger">
+            <div class="left-side-audio">
+                <h4 class="thetitle">Please by The Smiths</h4>
+                <h1 class="audiolyrics">See Lyrics</h1>
+                <div class="actuallyrics">
+                    <p>Good times for a change</p> 
+                    <p>See, the luck I've had</p> 
+                    <p>Can make a good man</p> 
+                    <p>Turn bad</p> 
+                    <p>So please, please, please</p> 
+                    <p> Let me, let me, let me</p> 
+                    <p>Let me get what I want</p> 
+                    <p>This time</p> 
+                    <p> Haven't had a dream in a long time</p> 
+                    <p>See, the life I've had</p> 
+                    <p>Can make a good man bad</p> 
+                    <p>So for once in my life</p> 
+                    <p>Let me get what I want</p> 
+                    <p>Lord knows, it would be the first time</p> 
+                    <p>Lord knows, it would be the first time</p> 
+                </div>
+            </div>
+            <audio src="audio/please.mp3" controls="show"></audio>
+        </div>
+
+        <div class="movie">
+            <div class="left-side-movie">
+                <h4 class="thetitle">Lie Detective</h4>
+                <h1 class="controlstitle">Video controls</h1>
+
+                <div class="actualcontrols">
+                    <i class="fas fa-backward fa-backwardtwo"></i>
+                        <i class="fas fa-play-circle fa-play-circletwo"></i>
+                        <i class="fas fa-undo fa-undotwo"></i>
+                        <i class="fas fa-forward fa-forwardtwo"></i><br>
+                </div>
+
+                <h1 class="captionstitle">Captions <span class="spantwo">OFF</span></h1>
+            </div>
+
+            <video class="videotvshow" src="videos/LieDetective.mp4" alt="video">
+                <track src="videos/LieDetective.mp4.vtt" defaultkind="captions" srclang="en" label="English"/>
+            </video>
+        </div>
+
+    </ul>
+</main>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
