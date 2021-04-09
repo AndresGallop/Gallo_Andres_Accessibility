@@ -1,4 +1,4 @@
- #Accessibility App EYE-EAR
+# Accessibility App EYE-EAR
 
 This project is built for people with no disabilities and people with disabilities like auditive issues or visual issues.
 It will display two videos, one movie and one tv show, as well as an audio song.
@@ -12,7 +12,7 @@ turn them on or off.
 
 The audio file comes with HTML5 controls, but you will still be able to see the song lyrics in case you want to read them or have some auditive issue.
 
- ##Developer Notes
+## Developer Notes
 
 The steps that I will follow are:
 
@@ -22,7 +22,7 @@ The steps that I will follow are:
 4. To display the lyrics I will make a toggle to hide and show the lyrics section.
 5. The video formats need to be mp4 for the visualization and vtt for the captions according to 'MDN Web Docs' Website.
 
- ##Designer Notes
+## Designer Notes
 
 There will be a header with three different options (MOVIES, MUSIC and TV SHOWS) that are just for showing how the whole website would look if there were more content.
 Then the tagline of the App name will be rendered in a big font size, after that there will be a big section with three smaller sections that will look like they are 
