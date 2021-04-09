@@ -3,7 +3,7 @@
 This project is built for people with no disabilities and people with disabilities like auditive issues or visual issues.
 It will display two videos, one movie and one tv show, as well as an audio song.
 
-##Specifications
+## Specifications
 
 The entire design of the website has big measurements in order to make it easy to read, as well as high contrast colours with the same objective.
 
